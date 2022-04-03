@@ -7,16 +7,9 @@ import { FooterComponent } from './core/components/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HeaderComponent,
-    FooterComponent
-  ],
-  imports: [
-    BrowserModule,
-    BrowserAnimationsModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [AppComponent, HeaderComponent, FooterComponent],
+    imports: [BrowserModule, BrowserAnimationsModule],
+    providers: [],
+    bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
